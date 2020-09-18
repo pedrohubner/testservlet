@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
 	implementation('junit:junit:4.13')
+	implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.5.RELEASE')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
